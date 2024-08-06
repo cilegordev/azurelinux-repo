@@ -1,0 +1,39 @@
+[azurelinux-prod]
+name=Azure Linux Official prod $releasever $basearch
+baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/base/$basearch
+gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/extended/$basearch/repodata/repomd.xml.key
+gpgcheck=1
+repo_gpgcheck=1
+enabled=1
+skip_if_unavailable=True
+sslverify=1
+
+[azurelinux-prod-debuginfo]
+name=Azure Linux Official prod $releasever $basearch Debuginfo
+baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/base/debuginfo/$basearch
+gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/extended/$basearch/repodata/repomd.xml.key
+gpgcheck=1
+repo_gpgcheck=1
+enabled=0
+skip_if_unavailable=True
+sslverify=1
+
+[azurelinux-prod-source]
+name=Azure Linux Official prod $releasever Source
+baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/base/srpms
+gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/extended/$basearch/repodata/repomd.xml.key
+gpgcheck=1
+repo_gpgcheck=1
+enabled=0
+skip_if_unavailable=True
+sslverify=1
+
+[azurelinux-prod-extended]
+name=Azure Linux Official prod $releasever $basearch
+baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/extended/$basearch
+gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/extended/$basearch/repodata/repomd.xml.key
+gpgcheck=1
+repo_gpgcheck=1
+enabled=1
+skip_if_unavailable=True
+sslverify=1
