@@ -1,5 +1,5 @@
 [azurelinux-amd-prod]
-name=Azure Linux Official prod $releasever $basearch
+name=Azure Linux Official amd prod $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/amd/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/amd/$basearch/repodata/repomd.xml.key
 gpgcheck=1

@@ -1,5 +1,5 @@
-[azurelinux-amd-preview]
-name=Azure Linux Official Preview $releasever $basearch
+[azurelinux-AMD-preview]
+name=Azure Linux Official AMD Preview $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/preview/amd/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/preview/amd/$basearch/repodata/repomd.xml.key
 gpgcheck=1

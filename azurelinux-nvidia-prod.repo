@@ -1,5 +1,5 @@
 [azurelinux-nvidia-prod]
-name=Azure Linux Official prod $releasever $basearch
+name=Azure Linux Official nvidia prod $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/nvidia/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/nvidia/$basearch/repodata/repomd.xml.key
 gpgcheck=1

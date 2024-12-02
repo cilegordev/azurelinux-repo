@@ -1,5 +1,5 @@
 [azurelinux-NVIDIA-preview]
-name=Azure Linux Official Preview $releasever $basearch
+name=Azure Linux Official NVIDIA Preview $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/preview/NVIDIA/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/preview/NVIDIA/$basearch/repodata/repomd.xml.key
 gpgcheck=1

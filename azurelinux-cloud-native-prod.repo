@@ -1,5 +1,5 @@
 [azurelinux-cloud-native-prod]
-name=Azure Linux Official prod $releasever $basearch
+name=Azure Linux Official cloud native prod $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/cloud-native/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/cloud-native/$basearch/repodata/repomd.xml.key
 gpgcheck=1
