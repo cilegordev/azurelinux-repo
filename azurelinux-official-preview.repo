@@ -9,7 +9,7 @@ skip_if_unavailable=True
 sslverify=1
 
 [azurelinux-preview-debuginfo]
-name=Azure Linux Official Preview $releasever $basearch Debuginfo
+name=Azure Linux Official Debuginfo Preview $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/preview/base/debuginfo/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/preview/base/$basearch/repodata/repomd.xml.key
 gpgcheck=1
@@ -19,7 +19,7 @@ skip_if_unavailable=True
 sslverify=1
 
 [azurelinux-preview-source]
-name=Azure Linux Official Preview $releasever Source
+name=Azure Linux Official Source Preview $releasever Source
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/preview/base/srpms
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/preview/base/$basearch/repodata/repomd.xml.key
 gpgcheck=1
@@ -29,7 +29,7 @@ skip_if_unavailable=True
 sslverify=1
 
 [azurelinux-preview-extended]
-name=Azure Linux Official Preview $releasever $basearch
+name=Azure Linux Official Extended Preview $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/preview/extended/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/preview/extended/$basearch/repodata/repomd.xml.key
 gpgcheck=1

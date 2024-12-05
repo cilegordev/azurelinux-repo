@@ -1,5 +1,5 @@
 [azurelinux-official-ms-non-oss-prod]
-name=Azure Linux Official Microsoft Non-Open-Source prod $releasever $basearch
+name=Azure Linux Official Microsoft non-open-source prod $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/ms-non-oss/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/ms-oss/$basearch/repodata/repomd.xml.key
 gpgcheck=1
@@ -9,7 +9,7 @@ skip_if_unavailable=True
 sslverify=1
 
 [azurelinux-official-ms-oss-prod]
-name=Azure Linux Official Microsoft Open-Source prod $releasever $basearch
+name=Azure Linux Official Microsoft open-source prod $releasever $basearch
 baseurl=https://packages.microsoft.com/azurelinux/$releasever/prod/ms-oss/$basearch
 gpgkey=https://packages.microsoft.com/azurelinux/$releasever/prod/ms-oss/$basearch/repodata/repomd.xml.key
 gpgcheck=1
