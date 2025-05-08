@@ -1,0 +1,124 @@
+# Repo Maped
+```
+.
+├── a
+│   └── aquamarine-0.4.4-1.azl3.x86_64.rpm
+├── b
+│   └── brightnessctl-0.5.1-1.azl3.x86_64.rpm
+├── c
+│   ├── cairomm-1.16.0-1.azl3.x86_64.rpm
+│   └── catfish-4.18.0-1.azl3.noarch.rpm
+├── e
+│   └── exo-4.18.0-1.azl3.x86_64.rpm
+├── f
+│   ├── Flat-Adwaita-0-1.azl3.noarch.rpm
+│   └── ffmpeg-5.0.3-1.azl3.x86_64.rpm
+├── g
+│   ├── garcon-4.18.2-1.azl3.x86_64.rpm
+│   ├── gnome-menus-3.36.0-1.azl3.x86_64.rpm
+│   ├── gstreamer1-plugins-bad-1.20.0-1.azl3.x86_64.rpm
+│   ├── gstreamer1-plugins-good-1.20.0-1.azl3.x86_64.rpm
+│   ├── gstreamer1-plugins-libav-1.20.0-1.azl3.x86_64.rpm
+│   ├── gstreamer1-plugins-ugly-1.20.0-1.azl3.x86_64.rpm
+│   ├── gtk-layer-shell-0.9.0-1.azl3.x86_64.rpm
+│   ├── gtk4-4.14.5-1.azl3.x86_64.rpm
+│   ├── gtk4-layer-shell-1.0.3-1.azl3.x86_64.rpm
+│   ├── gtksourceview3-3.24.11-1.azl3.x86_64.rpm
+│   ├── gvfs-1.56.1-1.azl3.x86_64.rpm
+│   ├── gvfs-client-1.56.1-1.azl3.x86_64.rpm
+│   ├── gvfs-fuse-1.56.1-1.azl3.x86_64.rpm
+│   └── gvfs-mtp-1.56.1-1.azl3.x86_64.rpm
+├── h
+│   ├── hyprcursor-0.1.10-1.azl3.x86_64.rpm
+│   ├── hyprland-0.42.0-1.azl3.x86_64.rpm
+│   ├── hyprlang-0.5.3-1.azl3.x86_64.rpm
+│   ├── hyprpaper-0.7.1-1.azl3.x86_64.rpm
+│   └── hyprutils-0.2.3-1.azl3.x86_64.rpm
+├── i
+│   └── iwgtk-0.9-1.azl3.x86_64.rpm
+├── k
+│   ├── kernel-6.6.85.1-3.azl3.x86_64.rpm
+│   ├── kernel-drivers-gpu-6.6.85.1-3.azl3.x86_64.rpm
+│   ├── kernel-drivers-intree-amdgpu-6.6.85.1-3.azl3.x86_64.rpm
+│   ├── kernel-drivers-sound-6.6.85.1-3.azl3.x86_64.rpm
+│   └── kernel-non-free-6.6.85.1-3.azl3.x86_64.rpm
+├── l
+│   ├── libXpresent-1.0.1-1.azl3.x86_64.rpm
+│   ├── libappstream-glib-0.8.3-1.azl3.x86_64.rpm
+│   ├── libdisplay-info-0.2.0-1.azl3.x86_64.rpm
+│   ├── libdisplay-info-tools-0.2.0-1.azl3.x86_64.rpm
+│   ├── liberation-fonts-2.1.5-1.azl3.noarch.rpm
+│   ├── libgtop2-2.41.3-1.azl3.x86_64.rpm
+│   ├── libinput-1.27.1-1.azl3.x86_64.rpm
+│   ├── libliftoff-0.5.0-1.azl3.x86_64.rpm
+│   ├── libmousepad0-0.6.3-1.azl3.x86_64.rpm
+│   ├── libopus-1.5.2-1.azl3.x86_64.rpm
+│   ├── libqrencode-4.1.1-1.azl3.x86_64.rpm
+│   ├── libqrencode-libs-4.1.1-1.azl3.x86_64.rpm
+│   ├── libseat-0.9.1-1.azl3.x86_64.rpm
+│   ├── libudis86-1.7.2-1.azl3.x86_64.rpm
+│   ├── libx264-0.164.3103-1.azl3.x86_64.rpm
+│   ├── libx265-3.5-1.azl3.x86_64.rpm
+│   ├── libxfce4ui-4.18.6-1.azl3.x86_64.rpm
+│   └── ly-0.6.0-1.azl3.x86_64.rpm
+├── m
+│   ├── menulibre-2.3.2-1.azl3.noarch.rpm
+│   ├── mesa-dri-drivers-24.0.1-2.azl3.x86_64.rpm
+│   ├── mousepad-0.6.3-1.azl3.x86_64.rpm
+│   └── mugshot-0.4.3-1.azl3.noarch.rpm
+├── n
+│   └── neofetch-7.1.1-1.azl3.noarch.rpm
+├── p
+│   ├── PlusJakartaSans-fonts-2.7.1-1.azl3.noarch.rpm
+│   ├── pangomm-2.50.2-1.azl3.x86_64.rpm
+│   ├── parole-4.18.1-1.azl3.x86_64.rpm
+│   ├── pavucontrol-6.1-1.azl3.x86_64.rpm
+│   └── python3-distutils-extra-2.39-1.azl3.noarch.rpm
+├── r
+│   ├── radeontop-1.4-1.azl3.x86_64.rpm
+│   └── ristretto-0.13.2-1.azl3.x86_64.rpm
+├── s
+│   └── seatd-0.9.1-1.azl3.x86_64.rpm
+├── t
+│   ├── Thunar-4.18.11-1.azl3.x86_64.rpm
+│   ├── thunar-archive-plugin-0.5.2-1.azl3.x86_64.rpm
+│   ├── thunar-volman-4.18.0-1.azl3.x86_64.rpm
+│   ├── tomlplusplus-3.4.0-1.azl3.x86_64.rpm
+│   └── tumbler-4.18.2-1.azl3.x86_64.rpm
+├── x
+│   ├── xarchiver-0.5.4.25-1.azl3.x86_64.rpm
+│   ├── xcalc-1.1.2-1.azl3.x86_64.rpm
+│   ├── xcb-util-errors-1.0.1-1.azl3.x86_64.rpm
+│   ├── xfce-polkit-0.3-1.azl3.x86_64.rpm
+│   ├── xfce4-about-4.18.6-1.azl3.x86_64.rpm
+│   ├── xfce4-appfinder-4.18.1-1.azl3.x86_64.rpm
+│   ├── xfce4-clipman-plugin-1.6.6-1.azl3.x86_64.rpm
+│   ├── xfce4-cpugraph-plugin-1.2.10-1.azl3.x86_64.rpm
+│   ├── xfce4-dev-tools-4.18.1-1.azl3.x86_64.rpm
+│   ├── xfce4-docklike-plugin-0.4.2-1.azl3.x86_64.rpm
+│   ├── xfce4-netload-plugin-1.4.1-1.azl3.x86_64.rpm
+│   ├── xfce4-notifyd-0.9.6-1.azl3.x86_64.rpm
+│   ├── xfce4-panel-4.18.6-1.azl3.x86_64.rpm
+│   ├── xfce4-panel-profiles-1.0.14-1.azl3.noarch.rpm
+│   ├── xfce4-power-manager-4.18.4-1.azl3.x86_64.rpm
+│   ├── xfce4-pulseaudio-plugin-0.4.9-1.azl3.x86_64.rpm
+│   ├── xfce4-screensaver-4.18.3-1.azl3.x86_64.rpm
+│   ├── xfce4-screenshooter-1.11.1-1.azl3.x86_64.rpm
+│   ├── xfce4-screenshooter-plugin-1.11.1-1.azl3.x86_64.rpm
+│   ├── xfce4-sensors-plugin-1.4.4-1.azl3.x86_64.rpm
+│   ├── xfce4-session-4.18.4-1.azl3.x86_64.rpm
+│   ├── xfce4-settings-4.18.6-1.azl3.x86_64.rpm
+│   ├── xfce4-taskmanager-1.5.7-1.azl3.x86_64.rpm
+│   ├── xfce4-terminal-1.1.4-1.azl3.x86_64.rpm
+│   ├── xfce4-wavelan-plugin-0.6.3-1.azl3.x86_64.rpm
+│   ├── xfce4-whiskermenu-plugin-2.8.3-1.azl3.x86_64.rpm
+│   ├── xfdesktop-4.18.1-1.azl3.x86_64.rpm
+│   ├── xfwm4-4.18.0-1.azl3.x86_64.rpm
+│   ├── xorg-x11-drv-ati-22.0.0-1.azl3.x86_64.rpm
+│   ├── xorg-x11-drv-fbdev-0.5.1-1.azl3.x86_64.rpm
+│   └── xorg-x11-drv-vesa-2.6.0-1.azl3.x86_64.rpm
+└── z
+    └── zsh-plugins-0.8.1-1.azl3.noarch.rpm
+
+18 directories, 100 files
+```
