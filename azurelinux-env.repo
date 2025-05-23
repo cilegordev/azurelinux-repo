@@ -1,5 +1,5 @@
 [azurelinux-env]
 name=Azure Linux Desktop Experience $releasever $basearch
-baseurl=https://cilegordev.github.io/azurelinux-repos-env/packages/
+baseurl=https://cilegordev.github.io/azurelinux-repos-env/
 enabled=1
 gpgcheck=0

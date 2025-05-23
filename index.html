@@ -1,18 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta charset="UTF-8">
-<title>Index of /</title>
+  <meta charset="UTF-8">
+  <title>Index of /</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: white;
+      background-color: #1c1b22;
+      overflow-x: hidden;
+    }
+
+    @keyframes fadeInFromLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeInFromRight {
+      from {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeInFromBottomLeft {
+      from {
+        opacity: 0;
+        transform: translate(-20px, 20px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(0, 0);
+      }
+    }
+
+    .image-wrapper {
+      position: absolute;
+      top: 0;
+      right: -70px;
+      left: auto;
+      height: 100%;
+      z-index: 0;
+      animation: fadeInFromRight 1s ease-out forwards;
+      overflow: hidden;
+    }
+
+    .image-blend {
+      position: relative;
+      height: 100%;
+    }
+
+    .image-blend::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 1000px;
+      background: linear-gradient(to right, #1c1b22 0%, transparent 100%);
+      z-index: 1;
+    }
+
+    .image-blend img {
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      position: relative;
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      padding: 30px 20px;
+      max-width: 600px;
+      animation: fadeInFromLeft 1s ease-out forwards;
+    }
+
+    h1 {
+      font-size: 1.6em;
+      margin-bottom: 10px;
+      font-weight: 600;
+      border-bottom: 1px solid #444;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #4ea8ff;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 1em;
+      margin-right: 0.5em;
+    }
+
+    .corner-icons {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      display: flex;
+      gap: 10px;
+      z-index: 3;
+      animation: fadeInFromBottomLeft 1s ease-out forwards;
+    }
+
+    .corner-icons img {
+      width: 28px;
+      height: 28px;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+
+    .corner-icons img:hover {
+      opacity: 1;
+    }
+
+    /* Landscape HP */
+    @media screen and (max-height: 500px) and (orientation: landscape) {
+      .image-wrapper {
+        right: 0;
+        left: auto;
+        animation: none;
+      }
+
+      .content {
+        animation: none;
+      }
+      
+      .corner-icons {
+        animation: none;
+      }
+
+      .image-blend::before {
+        width: 400px;
+      }
+    }
+
+    /* Portrait */
+    @media screen and (orientation: portrait) {
+      .image-wrapper {
+        left: 0;
+        right: auto;
+        width: 100vw;
+        height: 100vh;
+        animation: none;
+      }
+
+      .image-blend {
+        width: 100%;
+        height: 100%;
+      }
+
+      .image-blend::before {
+        background: linear-gradient(to right, #1c1b22 0%, transparent 100%);
+        left: 0;
+        right: auto;
+        width: 300px;
+      }
+
+      .image-blend img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .content {
+        animation: none;
+      }
+      
+      .corner-icons {
+        animation: none;
+      }
+    }
+  </style>
+  <link rel="icon" href="https://raw.githubusercontent.com/microsoft/azurelinux/refs/heads/3.0/SPECS/calamares/azl-logo.png" type="image/x-icon">
 </head>
-<link rel="icon" href="https://raw.githubusercontent.com/microsoft/azurelinux/refs/heads/3.0/SPECS/calamares/azl-logo.png" type="image/x-icon">
-<body bgcolor="#1c1b22">
-<pre>
-<a href="https://www.github.com/cilegordev/azurelinux-repos-env">../</a>
-<a href="packages/index.html">packages/</a>
-<a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/azurelinux-env.repo">config.repo</a>
-<a href="packages/repodata/index.html">repodata/</a>
-<a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/README">README</a>
-<a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/LICENSE">LICENSE</a>
-</pre>
+<body>
+  <div class="image-wrapper">
+    <div class="image-blend">
+      <img src="https://raw.githubusercontent.com/cilegordev/cilegordev/refs/heads/main/assets/azurelinux-calamares.png" alt="Azure Linux Calamares" />
+    </div>
+  </div>
+  <div class="content">
+    <h1>Index of /</h1>
+    <ul>
+  <img src="https://github.com/fluidicon.png" alt="icon" class="icon" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">
+  <a href="https://www.github.com/cilegordev/azurelinux-repos-env">.@github</a>
+      <li><span class="icon">📁</span><a href="packages/index.html">packages/</a></li>
+      <li><span class="icon">📄</span><a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/azurelinux-env.repo">config.repo</a></li>
+      <li><span class="icon">📁</span><a href="repodata/index.html">repodata/</a></li>
+      <li><span class="icon">📄</span><a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/README">README</a></li>
+      <li><span class="icon">📄</span><a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/LICENSE">LICENSE</a></li>
+    </ul>
+  </div>
+  <div class="corner-icons">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/X.Org_Logo.svg" alt="X.Org Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Wayland_Logo.svg" alt="Wayland Logo">
+  </div>
 </body>
 </html>
