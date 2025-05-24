@@ -146,7 +146,6 @@
       opacity: 1;
     }
 
-    /* Landscape HP */
     @media screen and (max-height: 500px) and (orientation: landscape) {
       .image-wrapper {
         right: 0;
@@ -157,7 +156,7 @@
       .content {
         animation: none;
       }
-      
+
       .corner-icons {
         animation: none;
       }
@@ -167,19 +166,27 @@
       }
     }
 
-    /* Portrait */
     @media screen and (orientation: portrait) {
       .image-wrapper {
         left: 0;
         right: auto;
+        top: 0;
         width: 100vw;
         height: 100vh;
         animation: none;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow: hidden;
       }
 
       .image-blend {
         width: 100%;
         height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
       }
 
       .image-blend::before {
@@ -190,15 +197,16 @@
       }
 
       .image-blend img {
-        width: 100%;
+        width: auto;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        object-position: left top;
       }
 
       .content {
         animation: none;
       }
-      
+
       .corner-icons {
         animation: none;
       }
@@ -215,8 +223,8 @@
   <div class="content">
     <h1>Index of /</h1>
     <ul>
-  <img src="https://github.com/fluidicon.png" alt="icon" class="icon" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">
-  <a href="https://www.github.com/cilegordev/azurelinux-repos-env">.@github</a>
+      <img src="https://github.com/fluidicon.png" alt="icon" class="icon" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">
+      <a href="https://www.github.com/cilegordev/azurelinux-repos-env">.@github</a>
       <li><span class="icon">📁</span><a href="packages/index.html">packages/</a></li>
       <li><span class="icon">📄</span><a href="https://raw.githubusercontent.com/cilegordev/azurelinux-repos-env/refs/heads/Extended/azurelinux-env.repo">config.repo</a></li>
       <li><span class="icon">📁</span><a href="repodata/index.html">repodata/</a></li>
