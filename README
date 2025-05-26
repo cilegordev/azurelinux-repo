@@ -16,6 +16,7 @@
 │   └── ffmpeg-5.0.3-1.azl3.x86_64.rpm
 ├── g
 │   ├── garcon-4.18.2-1.azl3.x86_64.rpm
+│   ├── gigolo-0.5.3-1.azl3.x86_64.rpm
 │   ├── gnome-menus-3.36.0-1.azl3.x86_64.rpm
 │   ├── gstreamer1-plugins-bad-1.20.0-1.azl3.x86_64.rpm
 │   ├── gstreamer1-plugins-good-1.20.0-1.azl3.x86_64.rpm
@@ -54,6 +55,8 @@
 │   ├── libinput-1.27.1-1.azl3.x86_64.rpm
 │   ├── libliftoff-0.5.0-1.azl3.x86_64.rpm
 │   ├── libmousepad0-0.6.3-1.azl3.x86_64.rpm
+│   ├── libnm-1.51.4-1.azl3.x86_64.rpm
+│   ├── libnma-1.10.6-1.azl3.x86_64.rpm
 │   ├── libopus-1.5.2-1.azl3.x86_64.rpm
 │   ├── libqrencode-4.1.1-1.azl3.x86_64.rpm
 │   ├── libqrencode-libs-4.1.1-1.azl3.x86_64.rpm
@@ -69,7 +72,14 @@
 │   ├── mousepad-0.6.3-1.azl3.x86_64.rpm
 │   └── mugshot-0.4.3-1.azl3.noarch.rpm
 ├── n
-│   └── neofetch-7.1.1-1.azl3.noarch.rpm
+│   ├── NetworkManager-1.51.4-1.azl3.x86_64.rpm
+│   ├── NetworkManager-nmcli-1.51.4-1.azl3.x86_64.rpm
+│   ├── NetworkManager-nmtui-1.51.4-1.azl3.x86_64.rpm
+│   ├── NetworkManager-wifi-1.51.4-1.azl3.x86_64.rpm
+│   ├── neofetch-7.1.1-1.azl3.noarch.rpm
+│   ├── network-manager-applet-1.36.0-1.azl3.x86_64.rpm
+│   ├── nm-connection-editor-1.36.0-1.azl3.x86_64.rpm
+│   └── nm-connection-editor-desktop-1.36.0-1.azl3.x86_64.rpm
 ├── p
 │   ├── PlusJakartaSans-fonts-2.7.1-1.azl3.noarch.rpm
 │   ├── pangomm-2.50.2-1.azl3.x86_64.rpm
@@ -122,4 +132,4 @@
 └── z
     └── zsh-plugins-0.8.1-1.azl3.noarch.rpm
 
-18 directories, 101 files
+18 directories, 111 files
