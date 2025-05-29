@@ -9,6 +9,7 @@
 ├── c
 │   ├── cairomm-1.16.0-1.azl3.x86_64.rpm
 │   └── catfish-4.18.0-1.azl3.noarch.rpm
+├── d
 ├── e
 │   └── exo-4.18.0-1.azl3.x86_64.rpm
 ├── f
@@ -38,7 +39,9 @@
 │   ├── hyprpaper-0.7.1-1.azl3.x86_64.rpm
 │   └── hyprutils-0.2.3-1.azl3.x86_64.rpm
 ├── i
+│   ├── indoterm-1.0.0-1.azl3.x86_64.rpm
 │   └── iwgtk-0.9-1.azl3.x86_64.rpm
+├── j
 ├── k
 │   ├── kernel-6.6.85.1-3.azl3.x86_64.rpm
 │   ├── kernel-drivers-gpu-6.6.85.1-3.azl3.x86_64.rpm
@@ -73,19 +76,22 @@
 │   └── mugshot-0.4.3-1.azl3.noarch.rpm
 ├── n
 │   ├── NetworkManager-1.51.4-1.azl3.x86_64.rpm
+│   ├── NetworkManager-applet-1.36.0-1.azl3.x86_64.rpm
 │   ├── NetworkManager-nmcli-1.51.4-1.azl3.x86_64.rpm
 │   ├── NetworkManager-nmtui-1.51.4-1.azl3.x86_64.rpm
 │   ├── NetworkManager-wifi-1.51.4-1.azl3.x86_64.rpm
 │   ├── neofetch-7.1.1-1.azl3.noarch.rpm
-│   ├── network-manager-applet-1.36.0-1.azl3.x86_64.rpm
 │   ├── nm-connection-editor-1.36.0-1.azl3.x86_64.rpm
-│   └── nm-connection-editor-desktop-1.36.0-1.azl3.x86_64.rpm
+│   ├── nm-connection-editor-desktop-1.36.0-1.azl3.x86_64.rpm
+│   └── nwg-dock-hyprland-0.3.3-1.azl3.x86_64.rpm
+├── o
 ├── p
 │   ├── PlusJakartaSans-fonts-2.7.1-1.azl3.noarch.rpm
 │   ├── pangomm-2.50.2-1.azl3.x86_64.rpm
 │   ├── parole-4.18.1-1.azl3.x86_64.rpm
 │   ├── pavucontrol-6.1-1.azl3.x86_64.rpm
 │   └── python3-distutils-extra-2.39-1.azl3.noarch.rpm
+├── q
 ├── r
 │   ├── radeontop-1.4-1.azl3.x86_64.rpm
 │   └── ristretto-0.13.2-1.azl3.x86_64.rpm
@@ -97,6 +103,9 @@
 │   ├── thunar-volman-4.18.0-1.azl3.x86_64.rpm
 │   ├── tomlplusplus-3.4.0-1.azl3.x86_64.rpm
 │   └── tumbler-4.18.2-1.azl3.x86_64.rpm
+├── u
+├── v
+├── w
 ├── x
 │   ├── xarchiver-0.5.4.25-1.azl3.x86_64.rpm
 │   ├── xcalc-1.1.2-1.azl3.x86_64.rpm
@@ -130,7 +139,8 @@
 │   ├── xorg-x11-drv-ati-22.0.0-1.azl3.x86_64.rpm
 │   ├── xorg-x11-drv-fbdev-0.5.1-1.azl3.x86_64.rpm
 │   └── xorg-x11-drv-vesa-2.6.0-1.azl3.x86_64.rpm
+├── y
 └── z
     └── zsh-plugins-0.8.1-1.azl3.noarch.rpm
 
-18 directories, 112 files
+26 directories, 114 files
